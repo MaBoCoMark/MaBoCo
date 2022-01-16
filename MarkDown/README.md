@@ -1,24 +1,23 @@
-# H1 Headings Use \#
+# H1 Headings Use \# [^Headings]
 ## H2 Headings Use \#\#
 ### H3 Title
 #### H4 Title
 ##### H5 Title 
 ###### H6 Description \#\#\#\#\#\#
 No title Style
+[^Headings]: Check how to write Footnotes
+
 |~~ Strike ~~|_ _ BOLD _ _|_ Italic _|
 |-|-|-|
 |~~Strike Through~~| __Bold__ | _Italic_ |
+|I dont think there| are any| differences|
+
 > Quote use > as Quote
 ```C
 // Use (```Language) to get Highlights
 #include <codeblock>
 printf("This is ```C "); int random = 0;
 ```
-Use \[Note](random.com), Here is [Short Links](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls) for GitHub.
-
-Use \!\[Note](Link.png) to insert a Picture.
-
-![Wechat Yello Face ](https://iknow-pic.cdn.bcebos.com/4034970a304e251f92eb7187b786c9177f3e53b4)
 
 - list item 1
 - list item 2
@@ -32,24 +31,34 @@ Use \!\[Note](Link.png) to insert a Picture.
          - exapmle
            1. another example
 
-
-<!-- And the same discription as HTML -->
-
-## Didn't supported in VS Code yet
-###### Task list
 - [ ] To have a Task lisk
 - [x] Checked items
-###### Emoji Code
-emoji-cheat-sheet list [Here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-###### Foot Note
-Then Try a foot note[^1]
+- [ ] You'll need - [x]
 
-[^1]: seems didnt supported.
+:star_struck:
+emoji-cheat-sheet list [Here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+Use \[Note](random.com), Here is [Short Links](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls) for GitHub.
+
+Use \!\[Note](Link.png) to insert a Picture.
+
+![Wechat Yello Face ](https://iknow-pic.cdn.bcebos.com/4034970a304e251f92eb7187b786c9177f3e53b4)
+
+
+<!-- And the same discription as HTML -->
+## Latex didn't support by GitHub Orginal
+$Latex.need.\$Latex\$.$
+
+## Didn't supported in VS Code yet
+###### Mentions
+@, just simply @someone
+> @someone in DESCRIPTION when you commit
+
+## Footnote Notes:
+>How to: [^Footnote] with a [^Footnote]: Footnote discription
 ```
 Note: The position of a footnote in your Markdown does not 
 influence where the footnote will be rendered. You can write 
 a footnote right after your reference to the footnote, and 
 the footnote will still render at the bottom of the Markdown.
 ```
-###### Mentions
-@, just simply @someone
