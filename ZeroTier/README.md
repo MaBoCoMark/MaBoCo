@@ -1,4 +1,5 @@
 # ZeroTier Setup Guide
+> I've planned to try other methods to have a high bandwidth vLan environment, check [here](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/PendingMethods.md).
 ## Operating System
 [Windows](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#windows) / [MacOS](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#macos) / [Linux](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#linux)
 ### Windows
