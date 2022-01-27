@@ -1,6 +1,6 @@
 # ZeroTier Setup Guide
 ## Operating System
-[Windows]() / [MacOS]() / [Linux]()
+[Windows](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#windows) / [MacOS](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#macos) / [Linux](https://github.com/MaBoCoMark/MaBoCo/blob/master/ZeroTier/README.md#linux)
 ### Windows
 > To allow incoming streams (Ping etc.)
 
