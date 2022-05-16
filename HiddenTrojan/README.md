@@ -11,5 +11,10 @@ find / -name httpd.conf
 /etc/nginx/
 ```
 ### Apache config file path
-
+```
+/etc/httpd/conf/
+```
 ### Htdocs path
+```
+/var/www/html
+```
