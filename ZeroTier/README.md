@@ -34,6 +34,9 @@ Done :D
 > Probably use Linux for SuperNode only...
 
 ```
+TOKEN=$(sudo cat /var/lib/zerotier-one/authtoken.secret)
+```
+```
 NODEID=$(zerotier-cli info | cut -d " " -f 3)
 ```
 ```
