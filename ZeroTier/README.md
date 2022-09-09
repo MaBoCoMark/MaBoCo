@@ -33,5 +33,11 @@ Done :D
 ### Linux
 > Probably use Linux for SuperNode only...
 
+```
+NODEID=$(zerotier-cli info | cut -d " " -f 3)
+```
+```
+NWID=977b5e7acd65be2b
+```
 ZeroTier official instruction [link](https://docs.zerotier.com/self-hosting/network-controllers)
 
