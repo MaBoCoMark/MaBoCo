@@ -47,3 +47,10 @@ curl "http://localhost:9993/controller/network/${NWID}/member" -H "X-ZT1-AUTH: $
 ```
 ZeroTier official instruction [link](https://docs.zerotier.com/self-hosting/network-controllers)
 
+```Shell
+#Auth
+curl -X POST "http://localhost:9993/controller/network/${NWID}/member/${MEMID}" -H "X-ZT1-AUTH: ${TOKEN}" -d '{"authorized": true}'
+
+#de-Auth
+curl -X POST "http://localhost:9993/controller/network/${NWID}/member/${MEMID}" -H "X-ZT1-AUTH: ${TOKEN}" -d '{"authorized": false}'
+```
