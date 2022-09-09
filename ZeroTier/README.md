@@ -39,5 +39,8 @@ NODEID=$(zerotier-cli info | cut -d " " -f 3)
 ```
 NWID=977b5e7acd65be2b
 ```
+```
+curl"http://localhost:9993/controller/network/${NWID}/member" -H "X-ZT1-AUTH: ${TOKEN}"
+```
 ZeroTier official instruction [link](https://docs.zerotier.com/self-hosting/network-controllers)
 
