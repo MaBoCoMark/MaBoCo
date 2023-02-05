@@ -1,6 +1,19 @@
 ## 什么是正则表达式？
+<!-- <table>
+<tr><th colspan=3>WOC</th></tr> -->
+
+<!-- </table> -->
 # 目录
-=================
+|===========================|横版目录|===========================|
+|-|-|-|
+|[1. 基本匹配](#1-基本匹配)|[2.1 点运算符 .](#21-点运算符-)|[2.2 匹配字符\[^\]](#22-字符集)|
+|[2.3.1 * 号](#231--号)|[2.3.2 + 号](#232--号)|[2.3.3 ? 号](#233--号)|
+|[2.4 {} 号](#24--号)|[2.5 (...) 特征标群](#25--特征标群)|[2.6 \| 或运算符](#26--或运算符)|
+|[2.7 转码特殊字符](#27-转码特殊字符)|[2.8.1 ^ 号](#281--号)|[2.8.2 $ 号](#282--号)|
+|[4.1 ?=... 正先行断言](#41--正先行断言)|[4.2 ?!... 负先行断言](#42--负先行断言)|[4.3 ?&lt;= ... 正后发断言](#43---正后发断言)|
+|[3. 简写字符集](#3-简写字符集)|[5.1 忽略大小写（Case Insensitive）](#51-忽略大小写-case-insensitive)|[5.2 全局搜索（Global search）](#52-全局搜索-global-search)|
+
+---------
 
  * [1. 基本匹配](#1-基本匹配)
  * [2. 元字符](#2-元字符)
@@ -28,9 +41,6 @@
 	* [5.1 忽略大小写（Case Insensitive）](#51-忽略大小写-case-insensitive)
 	* [5.2 全局搜索（Global search）](#52-全局搜索-global-search)
 	* [5.3 多行修饰符（Multiline）](#53-多行修饰符-multiline)
-* [额外补充](#额外补充)
-* [贡献](#贡献)
-* [许可证](#许可证)
 
 ## 1. 基本匹配
 
@@ -41,7 +51,8 @@
 "the" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 正则表达式`123`匹配字符串`123`。它逐个字符的与输入的正则表达式做比较。
 
@@ -51,7 +62,8 @@
 "The" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2. 元字符
 
@@ -73,6 +85,9 @@
 |^|从开始行开始匹配.|
 |$|从末端开始匹配.|
 
+|[回到顶部](#目录)|
+|-|
+
 ## 2.1 点运算符 `.`
 
 `.`是元字符中最简单的例子。
@@ -83,7 +98,8 @@
 ".ar" => The <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.2 字符集
 
@@ -97,7 +113,8 @@
 "[Tt]he" => <a href="#learn-regex"><strong>The</strong></a> car parked in <a href="#learn-regex"><strong>the</strong></a> garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 方括号的句号就表示句号。
 表达式 `ar[.]` 匹配 `ar.`字符串
@@ -106,7 +123,8 @@
 "ar[.]" => A garage is a good place to park a c<a href="#learn-regex"><strong>ar.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 2.2.1 否定字符集
 
@@ -117,7 +135,8 @@
 "[^c]ar" => The car <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.3 重复次数
 
@@ -133,7 +152,8 @@
 "[a-z]*" => T<a href="#learn-regex"><strong>he</strong></a> <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>parked</strong></a> <a href="#learn-regex"><strong>in</strong></a> <a href="#learn-regex"><strong>the</strong></a> <a href="#learn-regex"><strong>garage</strong></a> #21.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 `*`字符和`.`字符搭配可以匹配所有的字符`.*`。
 `*`和表示匹配空格的符号`\s`连起来用，如表达式`\s*cat\s*`匹配0或更多个空格开头和0或更多个空格结尾的cat字符串。
@@ -142,7 +162,8 @@
 "\s*cat\s*" => The fat<a href="#learn-regex"><strong> cat </strong></a>sat on the con<a href="#learn-regex"><strong>cat</strong></a>enation.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 2.3.2 `+` 号
 
@@ -153,7 +174,8 @@
 "c.+t" => The fat <a href="#learn-regex"><strong>cat sat on the mat</strong></a>.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 2.3.3 `?` 号
 
@@ -164,13 +186,15 @@
 "[T]he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "[T]?he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in t<a href="#learn-regex"><strong>he</strong></a> garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.4 `{}` 号
 
@@ -181,7 +205,8 @@
 "[0-9]{2,3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 我们可以省略第二个参数。
 例如，`[0-9]{2,}` 匹配至少两位 0~9 的数字。
@@ -190,7 +215,8 @@
 "[0-9]{2,}" => The number was 9.<a href="#learn-regex"><strong>9997</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 如果逗号也省略掉则表示重复固定的次数。
 例如，`[0-9]{3}` 匹配3位数字
@@ -199,7 +225,8 @@
 "[0-9]{3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to 10.0.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.5 `(...)` 特征标群
 
@@ -212,7 +239,8 @@
 "(c|g|p)ar" => The <a href="#learn-regex"><strong>car</strong></a> is <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.6 `|` 或运算符
 
@@ -224,7 +252,8 @@
 "(T|t)he|car" => <a href="#learn-regex"><strong>The</strong></a> <a href="#learn-regex"><strong>car</strong></a> is parked in <a href="#learn-regex"><strong>the</strong></a> garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.7 转码特殊字符
 
@@ -236,7 +265,8 @@
 "(f|c|m)at\.?" => The <a href="#learn-regex"><strong>fat</strong></a> <a href="#learn-regex"><strong>cat</strong></a> sat on the <a href="#learn-regex"><strong>mat.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 2.8 锚点
 
@@ -254,13 +284,15 @@
 "(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in <a href="#learn-regex"><strong>the</strong></a> garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "^(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 2.8.2 `$` 号
 
@@ -272,13 +304,15 @@
 "(at\.)" => The fat c<a href="#learn-regex"><strong>at.</strong></a> s<a href="#learn-regex"><strong>at.</strong></a> on the m<a href="#learn-regex"><strong>at.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "(at\.)$" => The fat cat. sat. on the m<a href="#learn-regex"><strong>at.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ##  3. 简写字符集
 
@@ -300,6 +334,9 @@
 |\v|匹配一个垂直制表符|
 |\p|匹配 CR/LF（等同于 `\r\n`），用来匹配 DOS 行终止符|
 
+|[回到顶部](#目录)|
+|-|
+
 ## 4. 零宽度断言（前后预查）
 
 先行断言和后发断言（合称 lookaround）都属于**非捕获组**（用于匹配模式，但不包括在匹配列表中）。当我们需要一个模式的前面或后面有另一个特定的模式时，就可以使用它们。
@@ -315,6 +352,9 @@
 |?<=|正后发断言-存在|
 |?<!|负后发断言-排除|
 
+|[回到顶部](#目录)|
+|-|
+
 ### 4.1 `?=...` 正先行断言
 
 `?=...` 正先行断言，表示第一部分表达式之后必须跟着 `?=...`定义的表达式。
@@ -329,7 +369,8 @@
 "(T|t)he(?=\sfat)" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 4.2 `?!...` 负先行断言
 
@@ -342,7 +383,8 @@
 "(T|t)he(?!\sfat)" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 4.3 `?<= ...` 正后发断言
 
@@ -353,7 +395,8 @@
 "(?<=(T|t)he\s)(fat|mat)" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the <a href="#learn-regex"><strong>mat</strong></a>.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 4.4 `?<!...` 负后发断言
 
@@ -364,7 +407,8 @@
 "(?&lt;!(T|t)he\s)(cat)" => The cat sat on <a href="#learn-regex"><strong>cat</strong></a>.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ## 5. 标志
 
@@ -386,13 +430,15 @@
 "The" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "/The/gi" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 5.2 全局搜索 (Global search)
 
@@ -403,13 +449,15 @@
 "/.(at)/" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the mat.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "/.(at)/g" => The <a href="#learn-regex"><strong>fat</strong></a> <a href="#learn-regex"><strong>cat</strong></a> <a href="#learn-regex"><strong>sat</strong></a> on the <a href="#learn-regex"><strong>mat</strong></a>.
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 5.3 多行修饰符 (Multiline)
 
@@ -425,7 +473,8 @@
                 on the <a href="#learn-regex"><strong>mat.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "/.at(.)?$/gm" => The <a href="#learn-regex"><strong>fat</strong></a>
@@ -433,7 +482,8 @@
                   on the <a href="#learn-regex"><strong>mat.</strong></a>
 </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 ### 6. 贪婪匹配与惰性匹配 (Greedy vs lazy matching)
 
@@ -442,9 +492,11 @@
 <pre>
 "/(.*at)/" => <a href="#learn-regex"><strong>The fat cat sat on the mat</strong></a>. </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
 
 <pre>
 "/(.*?at)/" => <a href="#learn-regex"><strong>The fat</strong></a> cat sat on the mat. </pre>
 
-[回到顶部](#目录)
+|[回到顶部](#目录)|
+|-|
