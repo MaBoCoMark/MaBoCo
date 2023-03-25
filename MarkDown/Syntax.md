@@ -94,6 +94,9 @@ previous.getSuffix();
 
 ## Checkboxes
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Un-Checked</td><td><code>- [ ]</code></td><td><code>- [ ] Empty Box</code></td><td><ul><li>[ ] Empty Box</li></ul></td></tr><tr><td>Checked</td><td><code>- [x]</code></td><td><code>- [x] Checked Box</code></td><td><ul><li>[x] Checked Box</li></ul></td></tr>
+<!-- <tr><td>Box with description</td><td><code>- [ ] \(description)</code></td><td><code>- [ ] \(optional)</code></td><td><ul><li>[ ] (optional)</li></ul></td></tr>  -->
+<tr><td colspan="4" align="center"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Advanced_Todo_List.png"><br>For more information, see "<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists">About task lists</a>."</td></tr></table>
 
 ## Mentions
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
