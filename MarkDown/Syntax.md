@@ -59,7 +59,7 @@ placeholder
 <code>```swift
 let static_bool = false;
 previous.getSuffix();
-```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr></table>
+```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>&lt;kbd&gt;cmd&lt;/kbd&gt;+1</code></td><td><kbd>cmd</kbd>+1</td></tr></table>
 
 
 ## Links
