@@ -115,6 +115,7 @@ previous.getSuffix();
 
 ## Raw Rendering
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+Simply using <kbd>\</kbd> to ignore the formatting symbol afterwards.
 
 ## Tables
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
