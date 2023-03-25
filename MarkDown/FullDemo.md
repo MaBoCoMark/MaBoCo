@@ -1,6 +1,6 @@
 # Full demo of Github Flavoured Markdown
 ## Table of Index
-|[**Headers**](#Headers)|[**Emphasis**](#Emphasis)|[**Lists**](#Lists)|[**Headers**](#Headers)|
+|[**Headers**](#Headers)|[**Emphasis**](#Emphasis)|[**Lists**](#Lists)|[**Inline HTML**](#Inline-HTML)|
 |-|-|-|-|
 |[**Headers**](#Headers)|[**Headers**](#Headers)|[**Headers**](#Headers)|[**Headers**](#Headers)|
 |[**Headers**](#Headers)|[**Headers**](#Headers)|[**Headers**](#Headers)|[**Headers**](#Headers)|
@@ -58,9 +58,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ```markdown
 1. First ordered list item
 2. Another item
-⋅⋅* Unordered sub-list.
+⋅⋅⋅* Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
+⋅⋅⋅1. Ordered sub-list
 4. And another item.
 
 ⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
@@ -89,3 +89,19 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+
+Blockquotes in a list item:
+
+    > Skip a line and indent the >'s four spaces.
+
+Preformatted text in a list item:
+    ```text
+Skip a line and indent eight spaces.
+That's four spaces for the list
+and four to trigger the code block.
+    ```
+## Inline HTML
+```markdown
+To reboot your computer, press `ctrl`+`alt`+`del`.
+```
+To reboot your computer, press `ctrl`+`alt`+`del`.
