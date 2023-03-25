@@ -1,7 +1,7 @@
 # Github Flavoured Markdown Syntax
 <table width="100%">
 	<tr>
-		<th colspan="4">Table of index</th>
+		<th colspan="4">Basic</th>
 	</tr>
 	<tr>
 		<td><a href="#headings">Headings</a></td>
@@ -9,22 +9,81 @@
 		<td><a href="#quoting">Quoting</a></td>
 		<td><a href="#links">Links</a></td>
 	</tr>
-  <tr>
+  	<tr>
 		<td><a href="#images">Images</a></td>
 		<td><a href="#lists">Lists</a></td>
 		<td><a href="#checkboxes">Checkboxes</a></td>
 		<td><a href="#mentions">Mentions</a></td>
 	</tr>
-  <tr>
+  	<tr>
 		<td><a href="#emoji">Emoji</a></td>
 		<td><a href="#footnotes">Footnotes</a></td>
 		<td><a href="#comments">Comments</a></td>
 		<td><a href="#raw-rendering">Raw Rendering</a></td>
 	</tr>
+	<tr>
+		<td colspan="4" align="center"><b>Advanced</b></td>
+	</tr>
+	<tr>
+		<td><a href="#tables">Tables</a></td>
+		<td><a href="#collapsed-sections">Collapsed Sections</a></td>
+		<td><a href="#code-blocks">Code Blocks</a></td>
+		<td><a href="#diagrams">Diagrams</a></td>
+	</tr>
+	<tr>
+		<td><a href="#latex-expressions">LaTeX expressions</a></td>
+		<td><a href="#horizontal-breaklines">Horizontal Breaklines</a></td>
+		<td><a href="#nested-elements">Nested Elements</a></td>
+		<td><a href="#html-usage">HTML usage</a></td>
+	</tr>
 </table>
 
 ## Headings
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table>
+	<tr>
+		<th>Style</th>
+		<th>Syntax</th>
+		<th>Example</th>
+		<th>Appearance</th>
+	</tr>
+	<tr>
+		<td>first-level heading<br>(has breakline)</td>
+		<td><code>#</code></td>
+		<td><code># H1</code></td>
+		<td><h1>First-level Heading</h1></td>
+	</tr>
+	<tr>
+		<td>second-level heading<br>(has breakline)</td>
+		<td><code>##</code></td>
+		<td><code>## H2</code></td>
+		<td><h2>Second-level Heading</h2></td>
+	</tr>
+	<tr>
+		<td>third-level heading</td>
+		<td><code>###</code></td>
+		<td><code>### H3</code></td>
+		<td><h3>Third-level Heading</h3></td>
+	</tr>
+	<tr>
+		<td>fourth-level heading</td>
+		<td><code>####</code></td>
+		<td><code>#### H4</code></td>
+		<td><h4>First-level Heading</h4></td>
+	</tr>
+	<tr>
+		<td>fifth-level heading</td>
+		<td><code>#####</code></td>
+		<td><code>##### H5</code></td>
+		<td><h5>Fifth-level Heading</h5></td>
+	</tr>
+	<tr>
+		<td>sixth-level heading</td>
+		<td><code>######</code></td>
+		<td><code>###### H6</code></td>
+		<td><h6>Sixth-level Heading</h6></td>
+	</tr>
+</table>
 
 ## Text Styles
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -58,4 +117,28 @@
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
 
 ## Raw Rendering
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Tables
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Collapsed Sections
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Code Blocks
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Diagrams
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## LaTeX expressions
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Horizontal Breaklines
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## Nested Elements
+<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+## HTML usage
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
