@@ -91,9 +91,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
 
 Blockquotes in a list item:
-
+> 3 spaces?
    > Skip a line and indent the >'s four spaces.
-
+      > 6 spaces?
 Preformatted text in a list item:
    ```text
 Skip a line and indent eight spaces.
