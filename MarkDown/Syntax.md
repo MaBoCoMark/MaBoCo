@@ -96,15 +96,22 @@ previous.getSuffix();
 
 ## Mentions
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Mentions</td><td><code>@</code></td><td><code>@mark4test</code></td><td><b>@mark4test</b></td></tr><tr><td colspan="4" align="center">Seems not working on<code>.md</code> files</td></tr><tr><td colspan="4"><p>You can mention a person or<a href="/en/organizations/organizing-members-into-teams">team</a> on GitHub by typing<kbd>@</kbd> plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "<a href="/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications">About notifications</a>."</p><p>When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "<a href="/en/organizations/organizing-members-into-teams/about-teams">About teams</a>."</p></td></tr></table>
 
 ## Emoji
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>emoji</td><td><code>:EMOJICODE:</code></td><td><code>:+1:</code></td><td><g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji></td></tr><tr><td colspan="4" align="center">emoji <a href="https://github.com/MaBoCoMark/MaBoCo/blob/master/MarkDown/emoji.md">sheet</a></td></tr></table>
 
 ## Footnotes
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>indicator</td><td><code>[^symbol]</code></td><td><code>Reference 1[^1]</code></td><td>Reference A<sup><a href="#fn-1" id="user-content-fnref-1" data-footnote-ref="">1</a></sup></td></tr><tr><td>citation</td><td><code>[^symbol]: information</code></td><td><code>[^1]: This is reference 1.</code></td><td><section data-footnotes=""><ol><li id="user-content-fn-1"><p>This is reference 1. <a href="#fnref-1" data-footnote-backref="" aria-label="Back to reference 1"><g-emoji class="g-emoji" alias="leftwards_arrow_with_hook" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/21a9.png">↩</g-emoji></a></p></li></ol></section></td></tr><tr><td colspan="4" align="center">The indicator and citation must be appeared as <b><i>pair</i></b> when declaring footnotes</td></tr><tr><td colspan="4" align="center">The indicate symbol <b><i>has to</i></b> be <b><i>numreic</i></b>.<br>Unless you want to bothering yourself.</td></tr></table>
 
 ## Comments
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+```HTML
+<!-- Completely same as HTML -->
+```
 
 ## Raw Rendering
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
