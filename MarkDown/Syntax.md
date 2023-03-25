@@ -64,7 +64,7 @@ previous.getSuffix();
 
 ## Links
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click <a href="#link">Here</a></td></tr><tr><td colspan="4" align="center"><strong>Advanced Usages check </strong><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Here</strong></a></td></tr></table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click <a href="#links">Here</a></td></tr><tr><td colspan="4" align="center"><strong>Advanced Usages check </strong><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Here</strong></a></td></tr></table>
 
 ## Images
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -72,6 +72,15 @@ previous.getSuffix();
 
 ## Lists
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>UNordered List</td><td><code>-</code> /<code>*</code> /<code>+</code></td><td><pre><code>- item 1
+* item 2
++ item 3</code></pre></td><td><ul><li>item 1</li></ul><ul><li>item 2</li></ul><ul><li>item 3</li></ul></td></tr><tr><td>Ordered List</td><td><code>number.</code></td><td><pre><code>1. item 1
+2. item 2
+3. item 3</code></pre></td><td><ol><li>item 1</li><li>item 2</li><li>item 3</li></ol></td></tr><tr><td rowspan="2">Nested Lists</td><td rowspan="2">Use<kbd>␣</kbd> to align<br><br>number of spaces<br>are depends on<br>the text above<br><br>You may check<br><kbd>↑</kbd> on the left</td><td><pre><code>1. Layer 1
+   - Layer 2
+     - Layer 3</code></pre></td><td><ol><li>Layer 1<ul><li>Layer 2<ul><li>Layer 3</li></ul></li></ul></li></ol></td></tr><tr><td><pre><code>100. Layer 1
+␣␣␣␣␣↑␣Layer 2
+␣␣␣␣␣␣␣↑ Layer 3</code></pre></td><td><ol start="100"><li>Layer 1<ul><li>Layer 2<ul><li>Layer 3</li></ul></li></ul></li></ol></td></tr></table>
 
 ## Checkboxes
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
