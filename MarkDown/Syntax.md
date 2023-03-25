@@ -34,7 +34,7 @@
 		<td><a href="#latex-expressions">LaTeX expressions</a></td>
 		<td><a href="#horizontal-breaklines">Horizontal Breaklines</a></td>
 		<td><a href="#nested-elements">Nested Elements</a></td>
-		<td><a href="#html-usage">HTML usage</a></td>
+		<td><a href="#uncategorized-usage">Uncategorized usage</a></td>
 	</tr>
 	<tr>
 		<td colspan="4" align="center"><a href="#references"><b>References</b></a></td>
@@ -59,7 +59,7 @@ placeholder
 <code>```swift
 let static_bool = false;
 previous.getSuffix();
-```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press&lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press<kbd>cmd</kbd></td></tr></table>
+```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press &lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press <kbd>cmd</kbd></td></tr></table>
 
 
 ## Links
@@ -134,8 +134,27 @@ previous.getSuffix();
 ## Nested Elements
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
 
-## HTML usage
+## Uncategorized usage
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+[Reference](https://github.com/community/community/discussions/16925) of below
+> **Note**
+> 
+> This is an extended-markdown note with blue icon.
+
+> **Warning**
+> 
+> This is an extended-markdown note with yellow icon.
+
+[Reference](https://github.com/github/markup/issues/369) of below
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+#### $\textcolor{red}{\textsf{Color didint work .}}$
 
 _ _ _
 ###### References
