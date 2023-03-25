@@ -64,7 +64,7 @@ previous.getSuffix();
 
 ## Links
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click<a href="#link">Here</a></td></tr><tr><td colspan="4" align="center"><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Advanced Usages</strong></a></td></tr></table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click <a href="#link">Here</a></td></tr><tr><td colspan="4" align="center"><strong>Advanced Usages check </strong><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Here</strong></a></td></tr></table>
 
 ## Images
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
