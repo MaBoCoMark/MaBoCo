@@ -36,54 +36,15 @@
 		<td><a href="#nested-elements">Nested Elements</a></td>
 		<td><a href="#html-usage">HTML usage</a></td>
 	</tr>
+	<tr>
+		<td colspan="4" align="center"><a href="#references"><b>References</b></a></td>
+	</tr>
+	
 </table>
 
 ## Headings
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table>
-	<tr>
-		<th>Style</th>
-		<th>Syntax</th>
-		<th>Example</th>
-		<th>Appearance</th>
-	</tr>
-	<tr>
-		<td>first-level heading<br>(has breakline)</td>
-		<td><code>#</code></td>
-		<td><code># H1</code></td>
-		<td><h1>First-level Heading</h1></td>
-	</tr>
-	<tr>
-		<td>second-level heading<br>(has breakline)</td>
-		<td><code>##</code></td>
-		<td><code>## H2</code></td>
-		<td><h2>Second-level Heading</h2></td>
-	</tr>
-	<tr>
-		<td>third-level heading</td>
-		<td><code>###</code></td>
-		<td><code>### H3</code></td>
-		<td><h3>Third-level Heading</h3></td>
-	</tr>
-	<tr>
-		<td>fourth-level heading</td>
-		<td><code>####</code></td>
-		<td><code>#### H4</code></td>
-		<td><h4>First-level Heading</h4></td>
-	</tr>
-	<tr>
-		<td>fifth-level heading</td>
-		<td><code>#####</code></td>
-		<td><code>##### H5</code></td>
-		<td><h5>Fifth-level Heading</h5></td>
-	</tr>
-	<tr>
-		<td>sixth-level heading</td>
-		<td><code>######</code></td>
-		<td><code>###### H6</code></td>
-		<td><h6>Sixth-level Heading</h6></td>
-	</tr>
-</table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Appearance</th></tr><tr><td>first-level heading<br>(has breakline)</td><td><code>#</code></td><td><code># H1</code></td><td><h1>First-level Heading</h1></td></tr><tr><td>second-level heading<br>(has breakline)</td><td><code>##</code></td><td><code>## H2</code></td><td><h2>Second-level Heading</h2></td></tr><tr><td>third-level heading</td><td><code>###</code></td><td><code>### H3</code></td><td><h3>Third-level Heading</h3></td></tr><tr><td>fourth-level heading</td><td><code>####</code></td><td><code>#### H4</code></td><td><h4>First-level Heading</h4></td></tr><tr><td>fifth-level heading</td><td><code>#####</code></td><td><code>##### H5</code></td><td><h5>Fifth-level Heading</h5></td></tr><tr><td>sixth-level heading</td><td><code>######</code></td><td><code>###### H6</code></td><td><h6>Sixth-level Heading</h6></td></tr></table>
 
 ## Text Styles
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -91,6 +52,15 @@
 
 ## Quoting
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Full line</td><td><code>></code></td><td><code>> a line of quoting text</code></td><td><blockquote><p>a line of quoting text</p></blockquote></td></tr><tr><td>Part text</td><td><code>` `</code></td><td><code>quote `part` text</code></td><td><p>quote<code>part</code> text</p></td></tr><tr><td>Codeblock</td><td><code>```</code></td>
+<td><table><tr><td><pre><code>```
+placeholder
+```</code></pre></td></tr></table></td><td><table><tr><td><pre><code>bruh</code></pre></td></tr></table></td></tr><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre>
+<code>```swift
+let static_bool = false;
+previous.getSuffix();
+```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr></table>
+
 
 ## Links
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -142,3 +112,6 @@
 
 ## HTML usage
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+
+_ _ _
+###### References
