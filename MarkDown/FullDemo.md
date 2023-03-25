@@ -92,14 +92,14 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Blockquotes in a list item:
 
-    > Skip a line and indent the >'s four spaces.
+   > Skip a line and indent the >'s four spaces.
 
 Preformatted text in a list item:
-    ```text
+   ```text
 Skip a line and indent eight spaces.
 That's four spaces for the list
 and four to trigger the code block.
-    ```
+   ```
 ## Inline HTML
 ```markdown
 To reboot your computer, press `ctrl`+`alt`+`del`.
