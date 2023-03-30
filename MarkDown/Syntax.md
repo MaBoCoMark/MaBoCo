@@ -84,7 +84,7 @@ previous.getSuffix();
 * item 2
 + item 3</code></pre></td><td><ul><li>item 1</li></ul><ul><li>item 2</li></ul><ul><li>item 3</li></ul></td></tr><tbody><tr><td>Ordered List</td><td><code>number.</code></td><td><pre><code>1. item 1
 2. item 2
-3. item 3</code></pre></td><td><ol><li>item 1</li><li>item 2</li><li>item 3</li></ol></td></tr></tbody><tr><td rowspan="3">Nested Lists</td><td rowspan="3">Use<kbd>␣</kbd> to align<br><br>number of spaces<br>are depends on<br>the text above<br><br>You may check<br><kbd>↑</kbd> on the left</td><td><pre><code>1. Layer 1
+3. item 3</code></pre></td><td><ol><li>item 1</li><li>item 2</li><li>item 3</li></ol></td></tr></tbody><tr><td rowspan="3">Nested Lists</td><td rowspan="3">Use<kbd>␣</kbd> to align<br><br>number of spaces<br>are depends on<br>the text above<br><br>You may check<br><kbd>↑</kbd> on the right.</td><td><pre><code>1. Layer 1
    - Layer 2
      - Layer 3</code></pre></td><td><ol><li>Layer 1<ul><li>Layer 2<ul><li>Layer 3</li></ul></li></ul></li></ol></td></tr><tr></tr><tr><td><pre><code>100. Layer 1
 ␣␣␣␣␣↑␣Layer 2
