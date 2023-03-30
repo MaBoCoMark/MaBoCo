@@ -139,6 +139,13 @@ Simply using <kbd>\</kbd> to ignore the formatting symbol afterwards.
 
 ## Collapsed Sections
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><thead><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Section</td><td><code>&lt;details&gt;</code></td><td rowspan="2"><pre><code>&lt;details&gt;
+  &lt;summary&gt;
+  Summary of this section
+  &lt;/summary&gt;
+&lt;br&gt;
+&lt;p&gt;Nothing in the stacks&lt;/p&gt;
+&lt;/details&gt;</code></pre></td><td rowspan="2"><details><summary>Summary of this section</summary><br><p>Nothing in the stacks</p></details></td></tr><tr><td>Summary</td><td><code>&lt;summary&gt;</code></td></tr><tr><td colspan="4" align="center">We <b>highly recommand</b> using <code>&lt;summary&gt;</code> label.</td></tr></table>
 
 ## Code Blocks
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
