@@ -1,8 +1,8 @@
 # Github Flavoured Markdown Syntax
 <table width="100%">
-	<tr>
+	<thead><tr>
 		<th colspan="4">Basic</th>
-	</tr>
+	</tr></thead>
 	<tr>
 		<td><a href="#headings">Headings</a></td>
 		<td><a href="#text-styles">Text Styles</a></td>
@@ -21,9 +21,9 @@
 		<td><a href="#comments">Comments</a></td>
 		<td><a href="#raw-rendering">Raw Rendering</a></td>
 	</tr>
-	<tr>
+	<tbody><tr>
 		<td colspan="4" align="center"><b>Advanced</b></td>
-	</tr>
+	</tr></tbody>
 	<tr>
 		<td><a href="#tables">Tables</a></td>
 		<td><a href="#collapsed-sections">Collapsed Sections</a></td>
@@ -44,7 +44,7 @@
 
 ## Headings
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Appearance</th></tr><tr><td>first-level heading<br>(has divider)</td><td><code>#</code></td><td><code># H1</code></td><td><h1>First-level Heading</h1></td></tr><tr><td>second-level heading<br>(has divider)</td><td><code>##</code></td><td><code>## H2</code></td><td><h2>Second-level Heading</h2></td></tr><tr><td>third-level heading</td><td><code>###</code></td><td><code>### H3</code></td><td><h3>Third-level Heading</h3></td></tr><tr><td>fourth-level heading</td><td><code>####</code></td><td><code>#### H4</code></td><td><h4>First-level Heading</h4></td></tr><tr><td>fifth-level heading</td><td><code>#####</code></td><td><code>##### H5</code></td><td><h5>Fifth-level Heading</h5></td></tr><tr><td>sixth-level heading</td><td><code>######</code></td><td><code>###### H6</code></td><td><h6>Sixth-level Heading</h6></td></tr></table>
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Appearance</th></tr></thead><tr><td>first-level heading<br>(has divider)</td><td><code>#</code></td><td><code># H1</code></td><td><h1>First-level Heading</h1></td></tr><tr><td>second-level heading<br>(has divider)</td><td><code>##</code></td><td><code>## H2</code></td><td><h2>Second-level Heading</h2></td></tr><tr><td>third-level heading</td><td><code>###</code></td><td><code>### H3</code></td><td><h3>Third-level Heading</h3></td></tr><tr><td>fourth-level heading</td><td><code>####</code></td><td><code>#### H4</code></td><td><h4>First-level Heading</h4></td></tr><tr><td>fifth-level heading</td><td><code>#####</code></td><td><code>##### H5</code></td><td><h5>Fifth-level Heading</h5></td></tr><tr><td>sixth-level heading</td><td><code>######</code></td><td><code>###### H6</code></td><td><h6>Sixth-level Heading</h6></td></tr></table>
 
 ## Text Styles
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -52,7 +52,7 @@
 
 ## Quoting
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Full line</td><td><code>></code></td><td><code>> a line of quoting text</code></td><td><blockquote><p>a line of quoting text</p></blockquote></td></tr><tr><td>Part text</td><td><code>` `</code></td><td><code>quote `part` text</code></td><td><p>quote<code>part</code> text</p></td></tr><tr><td>Codeblock</td><td><code>```</code></td><td><code>```        </code><br><code>Placeholder</code><br><code>```        </code><br></td><td><table><tr><td><pre><code>Placeholder</code></pre></td></tr></table></td></tr><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre><code>```swift
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Full line</td><td><code>></code></td><td><code>> a line of quoting text</code></td><td><blockquote><p>a line of quoting text</p></blockquote></td></tr><tr><td>Part text</td><td><code>` `</code></td><td><code>quote `part` text</code></td><td><p>quote<code>part</code> text</p></td></tr><tr><td>Codeblock</td><td><code>```</code></td><td><code>```        </code><br><code>Placeholder</code><br><code>```        </code><br></td><td><table><tr><td><pre><code>Placeholder</code></pre></td></tr></table></td></tr><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre><code>```swift
 let static_bool = false;
 previous.getSuffix();
 ```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press &lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press<kbd>cmd</kbd></td></tr></table>
@@ -60,11 +60,11 @@ previous.getSuffix();
 
 ## Links
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click <a href="#links">Here</a></td></tr><tr><td colspan="4" align="center"><strong>Advanced Usages check </strong><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Here</strong></a></td></tr></table>
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Link</td><td><code>[]()</code></td><td><code>Click [Here](#link)</code></td><td>Click <a href="#links">Here</a></td></tr><tr><td colspan="4" align="center"><strong>Advanced Usages check </strong><a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls"><strong>Here</strong></a></td></tr></table>
 
 ## Images
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Image<br>(no description)</td><td><code>![]()</code></td><td><code>![](https://avatars.githubusercontent.com/u/9919?s=200&v=4)</code></td><td><a ><img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="GitHub Avatar"></a></td></tr><tr><td>Image<br>(with description)</td><td><code>![description]()</code></td><td><code>![Powered By Shields.io](https://img.shields.io/badge/Markdown-Image%20Example-9cf?style=for-the-badge&logo=GitHub&labelColor=333)</code></td><td><a><img src="https://camo.githubusercontent.com/8543feedf918595518f2503b83f42b8b7ba1903e5fd070d395cea1c7e871c969/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d61726b646f776e2d496d6167652532304578616d706c652d3963663f7374796c653d666f722d7468652d6261646765266c6f676f3d476974487562266c6162656c436f6c6f723d333333" alt="Powered By Shields.io" data-canonical-src="https://img.shields.io/badge/Markdown-Image%20Example-9cf?style=for-the-badge&amp;logo=GitHub&amp;labelColor=333" style="max-width: 100%;"></a></td></tr></table>
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Image<br>(no description)</td><td><code>![]()</code></td><td><code>![](https://avatars.githubusercontent.com/u/9919?s=200&v=4)</code></td><td><a ><img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="GitHub Avatar"></a></td></tr><tr><td>Image<br>(with description)</td><td><code>![description]()</code></td><td><code>![Powered By Shields.io](https://img.shields.io/badge/Markdown-Image%20Example-9cf?style=for-the-badge&logo=GitHub&labelColor=333)</code></td><td><a><img src="https://camo.githubusercontent.com/8543feedf918595518f2503b83f42b8b7ba1903e5fd070d395cea1c7e871c969/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d61726b646f776e2d496d6167652532304578616d706c652d3963663f7374796c653d666f722d7468652d6261646765266c6f676f3d476974487562266c6162656c436f6c6f723d333333" alt="Powered By Shields.io" data-canonical-src="https://img.shields.io/badge/Markdown-Image%20Example-9cf?style=for-the-badge&amp;logo=GitHub&amp;labelColor=333" style="max-width: 100%;"></a></td></tr></table>
 
    - To specify the theme an image is shown to
 
@@ -78,7 +78,7 @@ previous.getSuffix();
 
 ## Lists
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>UNordered List</td><td><code>-</code> /<code>*</code> /<code>+</code></td><td><pre><code>- item 1
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>UNordered List</td><td><code>-</code> /<code>*</code> /<code>+</code></td><td><pre><code>- item 1
 * item 2
 + item 3</code></pre></td><td><ul><li>item 1</li></ul><ul><li>item 2</li></ul><ul><li>item 3</li></ul></td></tr><tr><td>Ordered List</td><td><code>number.</code></td><td><pre><code>1. item 1
 2. item 2
@@ -90,20 +90,20 @@ previous.getSuffix();
 
 ## Checkboxes
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Un-Checked</td><td><code>- [ ]</code></td><td><code>- [ ] Empty Box</code></td><td><ul><li>[ ] Empty Box</li></ul></td></tr><tr><td>Checked</td><td><code>- [x]</code></td><td><code>- [x] Checked Box</code></td><td><ul><li>[x] Checked Box</li></ul></td></tr>
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Un-Checked</td><td><code>- [ ]</code></td><td><code>- [ ] Empty Box</code></td><td><ul><li>[ ] Empty Box</li></ul></td></tr><tr><td>Checked</td><td><code>- [x]</code></td><td><code>- [x] Checked Box</code></td><td><ul><li>[x] Checked Box</li></ul></td></tr>
 <!-- <tr><td>Box with description</td><td><code>- [ ] \(description)</code></td><td><code>- [ ] \(optional)</code></td><td><ul><li>[ ] (optional)</li></ul></td></tr>  -->
 <tr><td colspan="4" align="center"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Advanced_Todo_List.png"><br>For more information, see "<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists">About task lists</a>."</td></tr></table>
 
 ## Mentions
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>Mentions</td><td><code>@</code></td><td><code>@mark4test</code></td><td><b>@mark4test</b></td></tr><tr><td colspan="4" align="center">Seems not working on<code>.md</code> files</td></tr><tr><td colspan="4"><p>You can mention a person or<a href="/en/organizations/organizing-members-into-teams">team</a> on GitHub by typing<kbd>@</kbd> plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "<a href="/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications">About notifications</a>."</p><p>When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "<a href="/en/organizations/organizing-members-into-teams/about-teams">About teams</a>."</p></td></tr></table>
+<table><thead><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Mentions</td><td><code>@</code></td><td><code>@mark4test</code></td><td><b>@mark4test</b></td></tr><tr><td colspan="4" align="center">Seems not working on<code>.md</code> files</td></tr><tr><td colspan="4"><p>You can mention a person or<a href="/en/organizations/organizing-members-into-teams">team</a> on GitHub by typing<kbd>@</kbd> plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "<a href="/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications">About notifications</a>."</p><p>When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "<a href="/en/organizations/organizing-members-into-teams/about-teams">About teams</a>."</p></td></tr></table>
 
 ## Emoji
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
 <table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>emoji</td><td><code>:EMOJICODE:</code></td><td><code>:+1:</code></td><td><g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji></td></tr><tr><td colspan="4" align="center">emoji <a href="https://github.com/MaBoCoMark/MaBoCo/blob/master/MarkDown/emoji.md">sheet</a></td></tr></table>
 
 ## Footnotes
-<table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><thead><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></thead></tr></table>
 <table><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr><tr><td>indicator</td><td><code>[^symbol]</code></td><td><code>Reference 1[^1]</code></td><td>Reference A<sup><a href="#fn-1" id="user-content-fnref-1" data-footnote-ref="">1</a></sup></td></tr><tr><td>citation</td><td><code>[^symbol]: information</code></td><td><code>[^1]: This is reference 1.</code></td><td><section data-footnotes=""><ol><li id="user-content-fn-1"><p>This is reference 1. <a href="#fnref-1" data-footnote-backref="" aria-label="Back to reference 1"><g-emoji class="g-emoji" alias="leftwards_arrow_with_hook" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/21a9.png">↩</g-emoji></a></p></li></ol></section></td></tr><tr><td colspan="4" align="center">The indicator and citation must be appeared as <b><i>pair</i></b> when declaring footnotes</td></tr><tr><td colspan="4" align="center">The indicate symbol <b><i>has to</i></b> be <b><i>numreic</i></b>.<br>Unless you want to bothering yourself.</td></tr></table>
 
 ## Comments
