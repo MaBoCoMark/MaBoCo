@@ -231,4 +231,6 @@ _ _ _
 
 [HTML Format-er](http://www.wetools.com/html-formatter)
 
+[HTML Compresser](https://tool.oschina.net/jscompress?type=2)
+
 [HTML minimize-r](http://www.wetools.com/html-minify)
