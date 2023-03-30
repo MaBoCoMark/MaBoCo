@@ -173,6 +173,19 @@ _   underscore
 
 ## Code Blocks
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><thead><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Show backticks</td><td><code>````</code></td><td rowspan="2"><pre><code>````markdown
+```
+Look! Backticks!
+```
+````</code></pre></td><td rowspan="2">
+		
+````markdown
+```
+Look! Backticks!
+```
+````
+		
+</td></tr><tr><td>Markdown Block</td><td><code>````markdown</code></td></tr></table>
 
 ## Diagrams
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
@@ -182,6 +195,7 @@ _   underscore
 
 ## Horizontal Breaklines
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Output</th></tr></thead><tr><td rowspan="7">Horizontal Breaklines<p align="center">/</p>Horizontal Rules</td><td><code>* * *</code></td><td><hr></td></tr><tr><td><code>***</code></td><td><hr></td></tr><tr><td><code>*****</code></td><td><hr></td></tr><tr><td><code>- - -</code></td><td><hr></td></tr><tr><td><code>---</code></td><td><hr></td></tr><tr><td><code>_ _ _</code></td><td><hr></td></tr><tr><td><code>&lt;hr&gt;</code></td><td><hr></td></tr></table>
 
 ## Nested Elements
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
