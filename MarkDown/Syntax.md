@@ -57,7 +57,14 @@ Placeholder
 ```</code></pre></td><td><pre><code>Placeholder</code></pre></td></tr></tbody><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre><code>```swift
 let static_bool = false;
 previous.getSuffix();
-```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press &lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press<kbd>cmd</kbd></td></tr></table>
+```</code></pre></td><td>
+
+```swift
+let static_bool = false;
+previous.getSuffix();
+```
+
+</td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press &lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press<kbd>cmd</kbd></td></tr></table>
 
 
 ## Links
@@ -118,6 +125,21 @@ previous.getSuffix();
 ## Raw Rendering
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
 Simply using <kbd>\</kbd> to ignore the formatting symbol afterwards.
+Markdown provides backslash escapes for the following characters:
+````
+\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+````
 
 ## Tables
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
