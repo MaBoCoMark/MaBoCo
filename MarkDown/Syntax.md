@@ -119,6 +119,21 @@ Simply using <kbd>\</kbd> to ignore the formatting symbol afterwards.
 
 ## Tables
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
+<table><thead><tr><th>Usage</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tbody><tr><td>Basic</td><td><pre><code>| |
+|-|</pre></td><td><pre><code>|Header1|Header2|
+|-|-|
+|Content1|Content2|</code></pre></td><td><table><thead><tr><th>Header1</th><th>Header2</th></tr></thead><tbody><tr><td>Content1</td><td>Content2</td></tr></tbody></table></td></tr></tbody><tbody><tr><td>Left Align</td><td><code>|:- |</code></td><td rowspan="3"><pre><code>| Left | Center | Right |
+|:-|:-:|-:|
+|Text|Text|Text|
+|Text|Text|Text|</code></pre></td><td rowspan="3"><table><thead><tr><th align="left">Left</th><th align="center">Center</th><th align="right">Right</th></tr></thead><tbody><tr><td align="left">Text</td><td align="center">Text</td><td align="right">Text</td></tr><tr><td align="left">Text</td><td align="center">Text</td><td align="right">Text</td></tr></tbody></table></td></tr><tr><td>Center Align</td><td><code>|:-:|</code></td></tr><tr><td>Right Align</td><td><code>| -:|</code></td></tr></tbody><tbody><tr><td rowspan="4">Conditional Formatting<br><br>Syntaxes are<br>reletive to<kbd>&lt;tr&gt;</kbd></td><td><code>&lt;thead&gt;</code><kbd>&lt;tr&gt;</kbd></td><td rowspan="2"><pre><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Background Color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></pre></td><td rowspan="2"><table><tr><td></td></tr><tr><td>Background Color</td></tr><tr><td></td></tr></table></td></tr><tr><td><code>&lt;tbody&gt;</code><kbd>&lt;tr&gt;</kbd></td></tr><tr><td><kbd>&lt;tr&gt;</kbd><code>&lt;th&gt;</code></td><td rowspan="2"><pre><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Background Color&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></pre></td><td rowspan="2"><table><tr><td></td></tr><tbody><tr><td>Background Color</td></tr></tbody><tr><td></td></tr></table></td></tr><tr><td><kbd>&lt;tr&gt;</kbd><code>&lt;td&gt;</code></td></tr></tbody></table>
 
 ## Collapsed Sections
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
