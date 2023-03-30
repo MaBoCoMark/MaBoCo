@@ -1,10 +1,11 @@
 <table>
-	<tr>
+	<thead><tr>
 		<th>Style</th>
 		<th>Syntax</th>
 		<th>Example</th>
 		<th>Output</th>
-	</tr>
+	</tr></thead>
+	<!-- <tbody></tbody> -->
 	<tr>
 		<td>Row1_Cell1</td>
 		<td><code>Row1_Cell2</code></td>
