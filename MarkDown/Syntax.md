@@ -52,7 +52,9 @@
 
 ## Quoting
 <table><tr><th><a href="#Github-Flavoured-Markdown-Syntax"><b>Back to top</b></a></th></tr></table>
-<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Full line</td><td><code>></code></td><td><code>> a line of quoting text</code></td><td><blockquote><p>a line of quoting text</p></blockquote></td></tr><tr><td>Part text</td><td><code>` `</code></td><td><code>quote `part` text</code></td><td><p>quote<code>part</code> text</p></td></tr><tr><td>Codeblock</td><td><code>```</code></td><td><code>```        </code><br><code>Placeholder</code><br><code>```        </code><br></td><td><table><tr><td><pre><code>Placeholder</code></pre></td></tr></table></td></tr><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre><code>```swift
+<table><thead><tr><th>Style</th><th>Syntax</th><th>Example</th><th>Output</th></tr></thead><tr><td>Full line</td><td><code>></code></td><td><code>> a line of quoting text</code></td><td><blockquote><p>a line of quoting text</p></blockquote></td></tr><tr><td>Part text</td><td><code>` `</code></td><td><code>quote `part` text</code></td><td><p>quote<code>part</code> text</p></td></tr><tbody><tr><td>Codeblock</td><td><code>```</code></td><td><pre><code>```
+Placeholder
+```</code></pre></td><td><pre><code>Placeholder</code></pre></td></tr></tbody><tr><td>Highlighted Codeblock</td><td><code>```language</code></td><td><pre><code>```swift
 let static_bool = false;
 previous.getSuffix();
 ```</code></pre></td><td><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png"><img src="https://github.com/MaBoCoMark/MaBoCo/raw/master/MarkDown/Swift_Codeblock_example.png" alt="" style="max-width: 100%;"></a></p></td></tr><tr><td>Key</td><td><code>&lt;kbd&gt;</code></td><td><code>Press &lt;kbd&gt;cmd&lt;/kbd&gt;</code></td><td>Press<kbd>cmd</kbd></td></tr></table>
