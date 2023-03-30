@@ -224,3 +224,11 @@ Look! Backticks!
 
 _ _ _
 ###### References
+
+[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+
+[Linguist Grammar Index](https://github.com/github/linguist/blob/master/vendor/README.md)
+
+[HTML Format-er](http://www.wetools.com/html-formatter)
+
+[HTML minimize-r](http://www.wetools.com/html-minify)
